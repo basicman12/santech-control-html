@@ -1,0 +1,133 @@
+.icon{
+    display: block;
+    background: transparent url(../images/icons.png) 0 0 no-repeat;
+}
+.icon.time{
+    width: 27px;
+    height: 63px;
+    background-position: 0 0;
+}
+.icon.phone{
+    width: 28px;
+    height: 63px;
+    background-position: 0 -63px;
+}
+.icon.cart{
+    width: 32px;
+    height: 66px;
+    background-position: 0 -126px;
+}
+.icon.arrow-right{
+    width: 10px;
+    height: 10px;
+    background-position: 0 -217px;    
+}
+.icon.arrow-down{   
+    width: 20px;
+    height: 20px;
+    background-position: 0 -227px;   
+}
+.icon.delivery{    
+    height: 117px;
+    background-position: center -267px;
+}
+.icon.payment{    
+    height: 117px;
+    background-position: center -384px;
+}
+.icon.installation{    
+    height: 117px;
+    background-position: center -501px;
+}
+.icon.exchange{    
+    height: 117px;
+    background-position: center -618px;
+}
+.icon.measurement{    
+    height: 117px;
+    background-position: center -735px;
+}
+.icon.sale{    
+    height: 117px;
+    background-position: center -852px;
+}
+.icon.visa{
+    width: 43px;
+    height: 27px;
+    background-position: 0 -1101px;
+}
+.icon.mastercard{
+    width: 45px;
+    height: 27px;
+    background-position: 0 -1128px;    
+}
+.icon.webmony{
+    width: 108px;
+    height: 28px;
+    background-position: 0 -1155px;    
+}
+.icon.tw{
+    width: 15px;
+    height: 13px;
+    background-position: 0 -1183px;    
+}
+.icon.fb{
+    width: 7px;
+    height: 12px;
+    background-position: 0 -1196px;    
+}
+.icon.vk{
+    width: 9px;
+    height: 11px;
+    background-position: -1px -1208px;    
+}
+.icon.od{
+    width: 8px;
+    height: 13px;
+    background-position: -1px -1219px;    
+}
+.icon.gp{
+    width: 14px;
+    height: 12px;
+    background-position: -2px -1232px;    
+}
+.icon.avalible{
+    width: 14px;
+    height: 14px;
+    background-position: 0 -1359px;    
+}
+.icon.question{
+    width: 27px;
+    height: 27px;
+    background-position: 0 -1420px;    
+}
+.icon.del{
+    width: 29px;
+    height: 29px;
+    background-position: 0 -1447px;    
+}
+.icon.del:hover{
+    width: 29px;
+    height: 29px;
+    background-position: 0 -1476px;    
+}
+.icon.pay_1{
+    width: 30px;
+    height: 31px;
+    background-position: 0 -1505px;
+}
+.icon.pay_2{
+    width: 32px;
+    height: 27px;
+    background-position: 0 -1536px;
+}
+.icon.pay_3{
+    width: 34px;
+    height: 37px;
+    background-position: 0 -1563px;
+}
+.icon.warning-i{
+    width: 31px;
+    height: 27px;
+    background-position: 0 -1600px;
+}

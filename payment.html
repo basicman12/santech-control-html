@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Оплата</title>
+
+        <!-- Bootstrap -->
+        <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic&amp;subset=cyrillic-ext,latin" rel="stylesheet">
+        <link href="css/rubricaxtcn.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-select.css" rel="stylesheet">
+        <link href="css/owl.carousel.css" rel="stylesheet">
+        <link href="css/owl.theme.css" rel="stylesheet">
+        <link href="css/submenu.css" rel="stylesheet">
+        <link href="css/jquery-ui.css" rel="stylesheet">
+        <link href="css/jquery-ui.theme.css" rel="stylesheet">
+        <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/build.css" rel="stylesheet">
+        <link href="css/rubl.css" rel="stylesheet">
+        <link href="css/jquery.countdown.css" rel="stylesheet">
+        <link href="css/icons.css" rel="stylesheet">
+        <link href="css/custom.css" rel="stylesheet">
+
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <!-- header -->
+        <header class="main">
+            <div class="up_line"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-3 col-sm-6 h-col_1">
+                        <a href="index.html" class="logo">
+                            <img src="images/logo.png" class="img-responsive" alt="" />
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 h-col_2">
+                        <div class="search-block row">
+                            <div class="icon time col-md-2 col-sm-2 col-xs-2 nopadding">
+
+                            </div>
+                            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 nopadding">
+                                <div class="description">
+                                    <div class="title">часы работы</div>
+                                    <div>Пн.—Вт.: 8.00—19.00   Сб.,Вс.: 9.00—14.00</div>
+                                    <div>
+                                        <form action="/search/">
+                                            <div class="form-group form-group-search">
+                                                <input placeholder="Поиск по сайту" type="text" id="head_search" class="form-control search input" name="q"  />
+                                                <button type="submit" class="submit_button"></button>
+                                                <div class="search_result_wrap" id="header_search_result"></div>
+                                                <div class="line-bottom"></div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 h-col_3">
+                        <div class="phone-block row">
+                            <div class="icon phone col-md-2 col-sm-2 col-xs-2 nopadding"></div>
+                            <div class="col-md-10 col-sm-10 col-xs-10 nopadding">
+                                <div class="description">
+                                    <div class="title row">
+                                        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 first_phone">8 812 309 73 74</div>
+
+                                        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 ">8 499 703 42 44</div>
+                                    </div>
+                                    <div class="email-wrap"><a href="mailto:info@santeсh-control.ru">info@santeсh-control.ru</a></div>
+                                    <div>
+                                        <a href="#" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#feedBack">заказть обратный звонок</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-6 h-col_4">
+                        <div class="cart-block row">
+                            <div class="icon cart col-md-4 col-sm-4 col-xs-2 nopadding"></div>
+                            <div class="col-md-8 col-sm-8 col-xs-10 nopadding">
+                                <div class="description">
+                                    <div class="title">корзина</div>
+                                    <div>В корзине нет товаров</div>
+                                    <div>
+                                        <a href="cart.html" class="btn btn-primary btn-sm">Перейти в корзину <i class="icon arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fast-cart">
+                                <div class="fast-cart-body">
+                                    <div class="item first">
+                                        <div class="item-img g-left">
+                                            <div class="img-wrap-wrap">
+                                                <div class="img-wrap">
+                                                    <a href="catalog_detail.html"><img src="images/temp/small-cart-item.png" alt="" /></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item-name g-left">
+                                            <div class="name"><a href="catalog_detail.html">Pool Spa Klio Ванна 160х70 PWP6610ZN000000</a></div>
+                                            <div class="input-group spiner-group">
+                                                <div class="input-group-addon"><a href="#" class="fa fa-minus spiner-minus"></a></div>
+                                                <input class="form-control" type="text" value="1" name="parents">
+                                                <div class="input-group-addon"><a href="#" class="fa fa-plus spiner-plus"></a></div>
+                                            </div>
+                                        </div>
+                                        <div class="item-price g-left">
+                                            <div class="price">
+                                                56 800 <span class="rub">Р</span>
+                                            </div>
+                                            <a href="#" class="icon del"></a>
+                                        </div>
+                                        <div class="g-clr"></div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="item-img g-left">
+                                            <div class="img-wrap-wrap">
+                                                <div class="img-wrap">
+                                                    <a href="catalog_detail.html"><img src="images/temp/small-cart-item.png" alt="" /></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item-name g-left">
+                                            <div class="name"><a href="catalog_detail.html">Pool Spa Klio Ванна 160х70 PWP6610ZN000000</a></div>
+                                            <div class="input-group spiner-group">
+                                                <div class="input-group-addon"><a href="#" class="fa fa-minus spiner-minus"></a></div>
+                                                <input class="form-control" type="text" value="1" name="parents">
+                                                <div class="input-group-addon"><a href="#" class="fa fa-plus spiner-plus"></a></div>
+                                            </div>
+                                        </div>
+                                        <div class="item-price g-left">
+                                            <div class="price">
+                                                56 800 <span class="rub">Р</span>
+                                            </div>
+                                            <a href="#" class="icon del"></a>
+                                        </div>
+                                        <div class="g-clr"></div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="item-img g-left">
+                                            <div class="img-wrap-wrap">
+                                                <div class="img-wrap">
+                                                    <a href="catalog_detail.html"><img src="images/temp/small-cart-item.png" alt="" /></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item-name g-left">
+                                            <div class="name"><a href="catalog_detail.html">Pool Spa Klio Ванна 160х70 PWP6610ZN000000</a></div>
+                                            <div class="input-group spiner-group">
+                                                <div class="input-group-addon"><a href="#" class="fa fa-minus spiner-minus"></a></div>
+                                                <input class="form-control" type="text" value="1" name="parents">
+                                                <div class="input-group-addon"><a href="#" class="fa fa-plus spiner-plus"></a></div>
+                                            </div>
+                                        </div>
+                                        <div class="item-price g-left">
+                                            <div class="price">
+                                                56 800 <span class="rub">Р</span>
+                                            </div>
+                                            <a href="#" class="icon del"></a>
+                                        </div>
+                                        <div class="g-clr"></div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="item-img g-left">
+                                            <div class="img-wrap-wrap">
+                                                <div class="img-wrap">
+                                                    <a href="catalog_detail.html"><img src="images/temp/small-cart-item.png" alt="" /></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item-name g-left">
+                                            <div class="name"><a href="catalog_detail.html">Pool Spa Klio Ванна 160х70 PWP6610ZN000000</a></div>
+                                            <div class="input-group spiner-group">
+                                                <div class="input-group-addon"><a href="#" class="fa fa-minus spiner-minus"></a></div>
+                                                <input class="form-control" type="text" value="1" name="parents">
+                                                <div class="input-group-addon"><a href="#" class="fa fa-plus spiner-plus"></a></div>
+                                            </div>
+                                        </div>
+                                        <div class="item-price g-left">
+                                            <div class="price">
+                                                56 800 <span class="rub">Р</span>
+                                            </div>
+                                            <a href="#" class="icon del"></a>
+                                        </div>
+                                        <div class="g-clr"></div>
+                                    </div>
+                                </div>
+                                <div class="fast-cart-footer">
+                                    <div class="inner text-center">
+                                        <a class="btn btn-primary btn-sm" href="cart.html#order">Оформить заказ</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a href="" class="navbar-brand visible-xs">Каталог</a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                        ВАННЫ
+                                        <span class="icon arrow-down"></span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="catalog.html">Акриловые</a></li>
+                                        <li class="dropdown dropdown-submenu">
+                                            <a href="catalog.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Чугунные</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="catalog.html">AM PM</a></li>
+                                                <li><a href="catalog.html">Appollo</a></li>
+                                                <li><a href="catalog.html">EAGO</a></li>
+                                                <li><a href="catalog.html">Edelform</a></li>
+                                                <li><a href="catalog.html">Golf</a></li>
+                                                <li><a href="catalog.html">Leader</a></li>
+                                                <li><a href="catalog.html">Liberti</a></li>
+                                                <li><a href="catalog.html">AM PM</a></li>
+                                                <li><a href="catalog.html">Appollo</a></li>
+                                                <li><a href="catalog.html">EAGO</a></li>
+                                                <li><a href="catalog.html">Edelform</a></li>
+                                                <li><a href="catalog.html">Golf</a></li>
+                                                <li><a href="catalog.html">Leader</a></li>
+                                                <li><a href="catalog.html">Liberti</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="catalog.html">Стальные</a></li>
+                                        <li><a href="catalog.html">Комплектующие для ванн</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown active">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ДУШЕВЫЕ КАБИНЫ <span class="icon arrow-down"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="">Акриловые</a></li>
+                                        <li class="dropdown dropdown-submenu">
+                                            <a href="catalog.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Чугунные</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="catalog.html">AM PM</a></li>
+                                                <li><a href="catalog.html">Appollo</a></li>
+                                                <li><a href="catalog.html">EAGO</a></li>
+                                                <li><a href="catalog.html">Edelform</a></li>
+                                                <li><a href="catalog.html">Golf</a></li>
+                                                <li><a href="catalog.html">Leader</a></li>
+                                                <li><a href="catalog.html">Liberti</a></li>
+                                                <li><a href="catalog.html">AM PM</a></li>
+                                                <li><a href="catalog.html">Appollo</a></li>
+                                                <li><a href="catalog.html">EAGO</a></li>
+                                                <li><a href="catalog.html">Edelform</a></li>
+                                                <li><a href="catalog.html">Golf</a></li>
+                                                <li><a href="catalog.html">Leader</a></li>
+                                                <li><a href="catalog.html">Liberti</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="">Стальные</a></li>
+                                        <li><a href="">Комплектующие для ванн</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">УНИТАЗЫ <span class="icon arrow-down"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="catalog.html">Акриловые</a></li>
+                                        <li class="dropdown dropdown-submenu">
+                                            <a href="catalog.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Чугунные</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="catalog.html">AM PM</a></li>
+                                                <li><a href="catalog.html">Appollo</a></li>
+                                                <li><a href="catalog.html">EAGO</a></li>
+                                                <li><a href="catalog.html">Edelform</a></li>
+                                                <li><a href="catalog.html">Golf</a></li>
+                                                <li><a href="catalog.html">Leader</a></li>
+                                                <li><a href="catalog.html">Liberti</a></li>
+                                                <li><a href="catalog.html">AM PM</a></li>
+                                                <li><a href="catalog.html">Appollo</a></li>
+                                                <li><a href="catalog.html">EAGO</a></li>
+                                                <li><a href="catalog.html">Edelform</a></li>
+                                                <li><a href="catalog.html">Golf</a></li>
+                                                <li><a href="catalog.html">Leader</a></li>
+                                                <li><a href="catalog.html">Liberti</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="catalog.html">Стальные</a></li>
+                                        <li><a href="catalog.html">Комплектующие для ванн</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">РАКОВИНЫ <span class="icon arrow-down"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="catalog.html">Акриловые</a></li>
+                                        <li class="dropdown dropdown-submenu">
+                                            <a href="catalog.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Чугунные</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="catalog.html">AM PM</a></li>
+                                                <li><a href="catalog.html">Appollo</a></li>
+                                                <li><a href="catalog.html">EAGO</a></li>
+                                                <li><a href="catalog.html">Edelform</a></li>
+                                                <li><a href="catalog.html">Golf</a></li>
+                                                <li><a href="catalog.html">Leader</a></li>
+                                                <li><a href="catalog.html">Liberti</a></li>
+                                                <li><a href="catalog.html">AM PM</a></li>
+                                                <li><a href="catalog.html">Appollo</a></li>
+                                                <li><a href="catalog.html">EAGO</a></li>
+                                                <li><a href="catalog.html">Edelform</a></li>
+                                                <li><a href="catalog.html">Golf</a></li>
+                                                <li><a href="catalog.html">Leader</a></li>
+                                                <li><a href="catalog.html">Liberti</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="catalog.html">Стальные</a></li>
+                                        <li><a href="catalog.html">Комплектующие для ванн</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="catalog.html">САУНЫ И БАНИ</a></li>
+                                <li><a href="catalog.html">СУШИЛКИ ДЛЯ РУК</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- /header -->
+        <!-- content -->
+        <div class="container">
+            <!-- breadcrumb -->
+            <ol class="breadcrumb">
+                <li><a href="index.html">Главная</a></li>
+                <li class="active">Оплата</li>
+            </ol>
+            <!-- /breadcrumb -->
+            <h1>Оплата</h1>
+            <h3>Мы предлагаем Вам на выбор следующие варианты оплаты:</h3>
+            <section class="pay-info">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="item-wrap">
+                            <div class="item">
+                                <div>
+                                    <div class="img-wrap">
+                                        <img class="img-responsive center-block" src="images/temp/pay1.png" alt="" />
+                                    </div>
+                                    <div class="title">Оплата курьеру наличными или по карте</div>
+                                    <div>
+                                        Курьер доставит вам на дом оформленный товар, вы убедитесь в его работоспособности и сможете оплатить его.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="item-wrap">
+                            <div class="item">
+                                <div>
+                                    <div class="img-wrap">
+                                        <img class="img-responsive center-block" src="images/temp/pay2.png" alt="" />
+                                    </div>
+                                    <div class="title">Оплата по выставленному счету</div>
+                                    <div>
+                                        Оформив заказ, запросите у менеджера счет на оплату, по указанным реквизитам вы сможете оплатить счет через интернет-банк или же в любом отделении своего банка.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="item-wrap">
+                            <div class="item">
+                                <div>
+                                    <div class="img-wrap">
+                                        <img class="img-responsive center-block" src="images/temp/pay3.png" alt="" />
+                                    </div>
+                                    <div class="title">Безналичная оплата юр. лицами</div>
+                                    <div>
+                                        Мы работаем с НДС доставка на следующий день после поступления денежных средств на наш р/счет.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+      </div>
+        <!-- /content -->
+        <!-- footer -->
+        <footer class="main-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                        <div class="section_footer_first">
+                            <div class="logo-footer">
+                                <img class="img-responsive" src="images/logo-footer.png" alt="" />
+                            </div>
+                            <section class="pay_systems">
+                                <div class="title">Способ оплаты:</div>
+                                <div>
+                                    <div class="g-left icon visa"></div>
+                                    <div class="g-left icon mastercard"></div>
+                                    <div class="g-left icon webmony"></div>
+                                    <div class="g-clr"></div>
+                                </div>
+                            </section>
+                            <section class="social-links">
+                                <a href="" class="g-left icon tw"></a>
+                                <a href="" class="g-left icon fb"></a>
+                                <a href="" class="g-left icon vk"></a>
+                                <a href="" class="g-left icon od"></a>
+                                <a href="" class="g-left icon gp"></a>
+                                <div class="g-clr"></div>
+                            </section>
+                            <section class="copyright">
+                                © 2015 “Santech-control”  Интернет-магазин<br />
+                                Все права защищены
+                            </section>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                        <section class="footer-menu">
+                            <div class="title">Услуги</div>
+                            <ul class="list-unstyled">
+                                <li><a href="delivery.html">Доставка</a></li>
+                                <li><a href="payment.html">Оплата</a></li>
+                                <li><a href="installation.html">Монтаж</a></li>
+                                <li><a href="">Обмен и возврат</a></li>
+                                <li><a href="">Выезд замерщика</a></li>
+                                <li><a href="">Акции</a></li>
+                            </ul>
+                        </section>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                        <section class="footer-contacts">
+                            <div class="title">Контакты</div>
+                            <div class="phone">8 812 309 73 74</div>
+                            <div class="phone">8 499 703 42 44</div>
+                            <div class="email"><a href="mailto:info@santeсh-control.ru">info@santeсh-control.ru</a></div>
+                            <div class="work_time">
+                                Пн.—Вт.: 8.00—19.00<br />
+                                Сб.,Вс.: 9.00—14.00
+                            </div>
+                            <div class="city_select">
+                                <div class="label_title">Выберите город:</div>
+                                <form action="#">
+                                    <select name="city_select" id="footer_city_select" class="selectpicker">
+                                        <option value="1">Санкт-Петербург</option>
+                                        <option value="2">Москва</option>
+                                    </select>
+                                </form>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                        <section class="footer-feedback">
+                            <div class="title">Оставить заявку</div>
+                            <form action="#" method="post">
+                                <div class="form-group">
+                                    <input type="text" name="name" class="form-control" placeholder="Имя">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="phone" class="form-control" placeholder="Телефон">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" name="email" class="form-control" placeholder="E-mail">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control"  name="text" placeholder="Ваше сообщение"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-primary btn-sm">Отправить</button>
+                                </div>
+                            </form>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- /footer -->
+        <div class="modal fade my_small_modal" id="buyOneClick" tabindex="-1" role="dialog" aria-labelledby="buyOneClick">
+            <div class="modal-dialog modal-sm" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="buyOneClickLabel">купить в 1 клик</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form action="#" method="post">
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control" placeholder="Имя">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="phone" class="form-control" placeholder="Моб.телефон">
+                            </div>
+                            <button type="button" class="btn btn-primary btn-sm">Купить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade my_small_modal" id="feedBack" tabindex="-1" role="dialog" aria-labelledby="feedBack">
+            <div class="modal-dialog modal-sm" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="feedBackLabel">Заказать обратный звонок:</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form action="#" method="post">
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control" placeholder="Имя">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="phone" class="form-control" placeholder="Моб.телефон">
+                            </div>
+                            <button type="button" class="btn btn-primary btn-sm">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade my_small_modal" id="choiceCity" tabindex="-1" role="dialog" aria-labelledby="choiceCity">
+            <div class="modal-dialog modal-sm" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="choiceCityLabel">Пожалуйста, выберите свой город:</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form action="#" method="post">
+                            <select name="city_select" id="modal_city_select" class="selectpicker">
+                                <option value="1">Санкт-Петербург</option>
+                                <option value="2">Москва</option>
+                            </select>
+                            <button type="button" class="btn btn-primary btn-sm" data-dismiss="modal" aria-label="Close">Выбрать</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/jquery.plugin.js"></script>
+        <script src="js/jquery.countdown.js"></script>
+        <script src="js/jquery.countdown-ru.js"></script>
+        <script src="js/jquery-ui.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/bootstrap-select.min.js"></script>
+        <script src="js/jquery.maskedinput.min.js"></script>
+        <script src="js/enscroll-0.6.1.min.js"></script>
+        <script src="js/custom.js"></script>
+    </body>
+</html>

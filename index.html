@@ -1,0 +1,1583 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Главная</title>
+
+        <!-- Bootstrap -->
+        <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic&amp;subset=cyrillic-ext,latin" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-select.css" rel="stylesheet">
+        <link href="css/owl.carousel.css" rel="stylesheet">
+        <link href="css/owl.theme.css" rel="stylesheet">
+        <link href="css/submenu.css" rel="stylesheet">
+        <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/rubl.css" rel="stylesheet">
+        <link href="css/icons.css" rel="stylesheet">
+        <link href="css/jquery.fancybox.css" rel="stylesheet">   
+        <link href="css/custom.css" rel="stylesheet">
+
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <!-- header -->
+        <header class="main">
+            <div class="up_line"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-3 col-sm-6 h-col_1">
+                        <span class="logo">
+                            <img src="images/logo.png" class="img-responsive" alt="" />
+                        </span>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 h-col_2">
+                        <div class="search-block row">
+                            <div class="icon time col-md-2 col-sm-2 col-xs-2 nopadding">
+                                
+                            </div>
+                            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 nopadding">
+                                <div class="description">
+                                    <div class="title">часы работы</div>
+                                    <div>Пн.—Вт.: 8.00—19.00   Сб.,Вс.: 9.00—14.00</div>
+                                    <div>
+                                        <form action="/search/">
+                                            <div class="form-group form-group-search">
+                                                <input placeholder="Поиск по сайту" type="text" id="head_search" class="form-control search input" name="q"  />
+                                                <button type="submit" class="submit_button"></button>
+                                                <div class="search_result_wrap" id="header_search_result"></div>
+                                                <div class="line-bottom"></div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 h-col_3">
+                        <div class="phone-block row">
+                            <div class="icon phone col-md-2 col-sm-2 col-xs-2 nopadding"></div>
+                            <div class="col-md-10 col-sm-10 col-xs-10 nopadding">
+                                <div class="description">
+                                    <div class="title row">
+                                        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 first_phone">8 812 309 73 74</div>
+                                        
+                                        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 ">8 499 703 42 44</div>                                        
+                                    </div>
+                                    <div class="email-wrap"><a href="mailto:info@santeсh-control.ru">info@santeсh-control.ru</a></div>
+                                    <div>
+                                        <a href="#" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#feedBack">заказть обратный звонок</a>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-6 h-col_4">
+                        <div class="cart-block row">
+                            <div class="icon cart col-md-4 col-sm-4 col-xs-2 nopadding"></div>
+                            <div class="col-md-8 col-sm-8 col-xs-10 nopadding">
+                                <div class="description">
+                                    <div class="title">корзина</div>
+                                    <div>В корзине нет товаров</div>
+                                    <div>
+                                        <a href="cart.html" class="btn btn-primary btn-sm">Перейти в корзину <i class="icon arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fast-cart">
+                                <div class="fast-cart-body">
+                                    <div class="item first">
+                                        <div class="item-img g-left">
+                                            <div class="img-wrap-wrap">
+                                                <div class="img-wrap">
+                                                    <a href="catalog_detail.html"><img src="images/temp/small-cart-item.png" alt="" /></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item-name g-left">
+                                            <div class="name"><a href="catalog_detail.html">Pool Spa Klio Ванна 160х70 PWP6610ZN000000</a></div>
+                                            <div class="input-group spiner-group">
+                                                <div class="input-group-addon"><a href="#" class="fa fa-minus spiner-minus"></a></div>
+                                                <input class="form-control" type="text" value="1" name="parents">
+                                                <div class="input-group-addon"><a href="#" class="fa fa-plus spiner-plus"></a></div>
+                                            </div>
+                                        </div>
+                                        <div class="item-price g-left">
+                                            <div class="price">
+                                                56 800 <span class="rub">Р</span>
+                                            </div>
+                                            <a href="#" class="icon del"></a>
+                                        </div>
+                                        <div class="g-clr"></div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="item-img g-left">
+                                            <div class="img-wrap-wrap">
+                                                <div class="img-wrap">
+                                                    <a href="catalog_detail.html"><img src="images/temp/small-cart-item.png" alt="" /></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item-name g-left">
+                                            <div class="name"><a href="catalog_detail.html">Pool Spa Klio Ванна 160х70 PWP6610ZN000000</a></div>
+                                            <div class="input-group spiner-group">
+                                                <div class="input-group-addon"><a href="#" class="fa fa-minus spiner-minus"></a></div>
+                                                <input class="form-control" type="text" value="1" name="parents">
+                                                <div class="input-group-addon"><a href="#" class="fa fa-plus spiner-plus"></a></div>
+                                            </div>
+                                        </div>
+                                        <div class="item-price g-left">
+                                            <div class="price">
+                                                56 800 <span class="rub">Р</span>
+                                            </div>
+                                            <a href="#" class="icon del"></a>
+                                        </div>
+                                        <div class="g-clr"></div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="item-img g-left">
+                                            <div class="img-wrap-wrap">
+                                                <div class="img-wrap">
+                                                    <a href="catalog_detail.html"><img src="images/temp/small-cart-item.png" alt="" /></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item-name g-left">
+                                            <div class="name"><a href="catalog_detail.html">Pool Spa Klio Ванна 160х70 PWP6610ZN000000</a></div>
+                                            <div class="input-group spiner-group">
+                                                <div class="input-group-addon"><a href="#" class="fa fa-minus spiner-minus"></a></div>
+                                                <input class="form-control" type="text" value="1" name="parents">
+                                                <div class="input-group-addon"><a href="#" class="fa fa-plus spiner-plus"></a></div>
+                                            </div>
+                                        </div>
+                                        <div class="item-price g-left">
+                                            <div class="price">
+                                                56 800 <span class="rub">Р</span>
+                                            </div>
+                                            <a href="#" class="icon del"></a>
+                                        </div>
+                                        <div class="g-clr"></div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="item-img g-left">
+                                            <div class="img-wrap-wrap">
+                                                <div class="img-wrap">
+                                                    <a href="catalog_detail.html"><img src="images/temp/small-cart-item.png" alt="" /></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item-name g-left">
+                                            <div class="name"><a href="catalog_detail.html">Pool Spa Klio Ванна 160х70 PWP6610ZN000000</a></div>
+                                            <div class="input-group spiner-group">
+                                                <div class="input-group-addon"><a href="#" class="fa fa-minus spiner-minus"></a></div>
+                                                <input class="form-control" type="text" value="1" name="parents">
+                                                <div class="input-group-addon"><a href="#" class="fa fa-plus spiner-plus"></a></div>
+                                            </div>
+                                        </div>
+                                        <div class="item-price g-left">
+                                            <div class="price">
+                                                56 800 <span class="rub">Р</span>
+                                            </div>
+                                            <a href="#" class="icon del"></a>
+                                        </div>
+                                        <div class="g-clr"></div>
+                                    </div>
+                                </div>
+                                <div class="fast-cart-footer">
+                                    <div class="inner text-center">
+                                        <a class="btn btn-primary btn-sm" href="cart.html#order">Оформить заказ</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a href="" class="navbar-brand visible-xs">Каталог</a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                        ВАННЫ
+                                        <span class="icon arrow-down"></span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="catalog.html">Акриловые</a></li>
+                                        <li class="dropdown dropdown-submenu">
+                                            <a href="catalog.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Чугунные</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="catalog.html">AM PM</a></li>
+                                                <li><a href="catalog.html">Appollo</a></li>
+                                                <li><a href="catalog.html">EAGO</a></li>
+                                                <li><a href="catalog.html">Edelform</a></li>
+                                                <li><a href="catalog.html">Golf</a></li>
+                                                <li><a href="catalog.html">Leader</a></li>
+                                                <li><a href="catalog.html">Liberti</a></li>
+                                                <li><a href="catalog.html">AM PM</a></li>
+                                                <li><a href="catalog.html">Appollo</a></li>
+                                                <li><a href="catalog.html">EAGO</a></li>
+                                                <li><a href="catalog.html">Edelform</a></li>
+                                                <li><a href="catalog.html">Golf</a></li>
+                                                <li><a href="catalog.html">Leader</a></li>
+                                                <li><a href="catalog.html">Liberti</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="catalog.html">Стальные</a></li>
+                                        <li><a href="catalog.html">Комплектующие для ванн</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown active">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ДУШЕВЫЕ КАБИНЫ <span class="icon arrow-down"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="">Акриловые</a></li>
+                                        <li class="dropdown dropdown-submenu">
+                                            <a href="catalog.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Чугунные</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="catalog.html">AM PM</a></li>
+                                                <li><a href="catalog.html">Appollo</a></li>
+                                                <li><a href="catalog.html">EAGO</a></li>
+                                                <li><a href="catalog.html">Edelform</a></li>
+                                                <li><a href="catalog.html">Golf</a></li>
+                                                <li><a href="catalog.html">Leader</a></li>
+                                                <li><a href="catalog.html">Liberti</a></li>
+                                                <li><a href="catalog.html">AM PM</a></li>
+                                                <li><a href="catalog.html">Appollo</a></li>
+                                                <li><a href="catalog.html">EAGO</a></li>
+                                                <li><a href="catalog.html">Edelform</a></li>
+                                                <li><a href="catalog.html">Golf</a></li>
+                                                <li><a href="catalog.html">Leader</a></li>
+                                                <li><a href="catalog.html">Liberti</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="">Стальные</a></li>
+                                        <li><a href="">Комплектующие для ванн</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">УНИТАЗЫ <span class="icon arrow-down"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="catalog.html">Акриловые</a></li>
+                                        <li class="dropdown dropdown-submenu">
+                                            <a href="catalog.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Чугунные</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="catalog.html">AM PM</a></li>
+                                                <li><a href="catalog.html">Appollo</a></li>
+                                                <li><a href="catalog.html">EAGO</a></li>
+                                                <li><a href="catalog.html">Edelform</a></li>
+                                                <li><a href="catalog.html">Golf</a></li>
+                                                <li><a href="catalog.html">Leader</a></li>
+                                                <li><a href="catalog.html">Liberti</a></li>
+                                                <li><a href="catalog.html">AM PM</a></li>
+                                                <li><a href="catalog.html">Appollo</a></li>
+                                                <li><a href="catalog.html">EAGO</a></li>
+                                                <li><a href="catalog.html">Edelform</a></li>
+                                                <li><a href="catalog.html">Golf</a></li>
+                                                <li><a href="catalog.html">Leader</a></li>
+                                                <li><a href="catalog.html">Liberti</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="catalog.html">Стальные</a></li>
+                                        <li><a href="catalog.html">Комплектующие для ванн</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">РАКОВИНЫ <span class="icon arrow-down"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="catalog.html">Акриловые</a></li>
+                                        <li class="dropdown dropdown-submenu">
+                                            <a href="catalog.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Чугунные</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="catalog.html">AM PM</a></li>
+                                                <li><a href="catalog.html">Appollo</a></li>
+                                                <li><a href="catalog.html">EAGO</a></li>
+                                                <li><a href="catalog.html">Edelform</a></li>
+                                                <li><a href="catalog.html">Golf</a></li>
+                                                <li><a href="catalog.html">Leader</a></li>
+                                                <li><a href="catalog.html">Liberti</a></li>
+                                                <li><a href="catalog.html">AM PM</a></li>
+                                                <li><a href="catalog.html">Appollo</a></li>
+                                                <li><a href="catalog.html">EAGO</a></li>
+                                                <li><a href="catalog.html">Edelform</a></li>
+                                                <li><a href="catalog.html">Golf</a></li>
+                                                <li><a href="catalog.html">Leader</a></li>
+                                                <li><a href="catalog.html">Liberti</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="catalog.html">Стальные</a></li>
+                                        <li><a href="catalog.html">Комплектующие для ванн</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="catalog.html">САУНЫ И БАНИ</a></li>
+                                <li><a href="catalog.html">СУШИЛКИ ДЛЯ РУК</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- /header -->
+        <!-- content -->
+        <div class="container">
+            <div class="special_title text-center">
+                Интернет-магазин по продаже и монтажу сантехники с доставкой по всей России и странам СНГ
+            </div>
+            
+            
+            <section class="sale">
+                <h2 class="special">                    
+                    <span class="title">Распродажа</span>                                                          
+                </h2>
+                <div class="special_title text-center">
+                    лидеры продаж в интернет-магазине santech-control
+                </div>
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a href="" class="navbar-brand visible-xs">Разделы</a>
+                        </div>
+                        <div class="collapse navbar-collapse filterig_links" id="bs-example-navbar-collapse-2">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="#" data-section-id="1">ВАННЫ</a></li>
+                                <li><a href="#" data-section-id="2">ДУШЕВЫЕ КАБИНЫ</a></li>
+                                <li><a href="#" data-section-id="3">УНИТАЗЫ</a></li>
+                                <li><a href="#" data-section-id="4">РАКОВИНЫ</a></li>
+                                <li><a href="#" data-section-id="5">САУНЫ И БАНИ</a></li>
+                                <li><a href="#" data-section-id="6">СУШИЛКИ ДЛЯ РУК</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                        <div id="owl-items-data" class="hidden">
+                            <div data-section-id="1">
+                                <div class="catalog-item-wrap">
+                                    <div class="catalog_item">
+                                        <div class="img-wrap-wrap">
+                                            <div class="img-wrap">
+                                                <a href="catalog_detail.html"><img class="" src="images/temp/product-01.png" alt="" /></a>
+                                            </div>
+                                        </div>
+                                        <a href="catalog_detail.html" class="name">Pool Spa Klio Ванна 160х70 PWP6610ZN000000</a>
+                                        <div class="section_name">
+                                            <i class="fa fa-tag"></i> Ванны
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Название: </div>
+                                            <div class="g-right text-right">KOLO</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Название коллекции: </div>
+                                            <div class="g-right text-right">AQUALINO</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property">
+                                            <div class="g-left">Страна производитель: </div>
+                                            <div class="g-right text-right">Польша</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property">
+                                            <div class="g-left">Размер: </div>
+                                            <div class="g-right text-right">150x70 см</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Глубина: </div>
+                                            <div class="g-right text-right">39 см</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">объём: </div>
+                                            <div class="g-right text-right">145 л</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Цвет </div>
+                                            <div class="g-right text-right">белый</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="price_wrap">
+                                            <div class="g-left price old_price"><span>56 800</span> <span class="rub">Р</span></div>
+                                            <div class="g-right price">45 000 <span class="rub">Р</span></div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="text-center">
+                                            <a href="catalog_detail.html" class="btn btn-primary btn-sm">Купить</a><a href="catalog_detail.html" class="btn btn-default btn-sm btn-more-item">Подробнее</a>
+                                        </div>
+                                        <div class="text-center sale-value">
+                                            Экономия 15%
+                                        </div>
+                                        <div class="labels">
+                                            <div class="sale_label icon_label">Распродажа</div><div class="g-clr"></div>
+                                            <div class="discount_label icon_label">Скидка</div><div class="g-clr"></div>
+                                            <div class="action_label icon_label">Акция</div><div class="g-clr"></div>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-section-id="1">
+                                <div class="catalog-item-wrap">
+                                    <div class="catalog_item">
+                                        <div class="img-wrap-wrap">
+                                            <div class="img-wrap">
+                                                <a href="catalog_detail.html"><img class="" src="images/temp/product-02.png" alt="" /></a>
+                                            </div>
+                                        </div>
+                                        <a href="catalog_detail.html" class="name">Pool Spa Klio Ванна 160х70 PWP6610ZN000000</a>
+                                        <div class="section_name">
+                                            <i class="fa fa-tag"></i> Ванны
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Название: </div>
+                                            <div class="g-right text-right">KOLO</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Название коллекции: </div>
+                                            <div class="g-right text-right">AQUALINO</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property">
+                                            <div class="g-left">Страна производитель: </div>
+                                            <div class="g-right text-right">Польша</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property">
+                                            <div class="g-left">Размер: </div>
+                                            <div class="g-right text-right">150x70 см</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Глубина: </div>
+                                            <div class="g-right text-right">39 см</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">объём: </div>
+                                            <div class="g-right text-right">145 л</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Цвет </div>
+                                            <div class="g-right text-right">белый</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="price_wrap">
+                                            <div class="g-left price old_price"><span>56 800</span> <span class="rub">Р</span></div>
+                                            <div class="g-right price">45 000 <span class="rub">Р</span></div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="text-center">
+                                            <a href="catalog_detail.html" class="btn btn-primary btn-sm">Купить</a><a href="catalog_detail.html" class="btn btn-default btn-sm btn-more-item">Подробнее</a>
+                                        </div>
+                                        <div class="text-center sale-value">
+                                            Экономия 15%
+                                        </div>
+                                        <div class="labels">
+                                            <div class="sale_label icon_label">Распродажа</div><div class="g-clr"></div>
+                                            <div class="discount_label icon_label">Скидка</div><div class="g-clr"></div>
+                                            <div class="action_label icon_label">Акция</div><div class="g-clr"></div>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-section-id="1">
+                                <div class="catalog-item-wrap">
+                                    <div class="catalog_item">
+                                        <div class="img-wrap-wrap">
+                                            <div class="img-wrap">
+                                                <a href="catalog_detail.html"><img class="" src="images/temp/product-03.png" alt="" /></a>
+                                            </div>
+                                        </div>
+                                        <a href="catalog_detail.html" class="name">Pool Spa Klio Ванна 160х70 PWP6610ZN000000</a>
+                                        <div class="section_name">
+                                            <i class="fa fa-tag"></i> Ванны
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Название: </div>
+                                            <div class="g-right text-right">KOLO</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Название коллекции: </div>
+                                            <div class="g-right text-right">AQUALINO</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property">
+                                            <div class="g-left">Страна производитель: </div>
+                                            <div class="g-right text-right">Польша</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property">
+                                            <div class="g-left">Размер: </div>
+                                            <div class="g-right text-right">150x70 см</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Глубина: </div>
+                                            <div class="g-right text-right">39 см</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">объём: </div>
+                                            <div class="g-right text-right">145 л</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Цвет </div>
+                                            <div class="g-right text-right">белый</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="price_wrap">
+                                            <div class="g-left price old_price"><span>56 800</span> <span class="rub">Р</span></div>
+                                            <div class="g-right price">45 000 <span class="rub">Р</span></div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="text-center">
+                                            <a href="catalog_detail.html" class="btn btn-primary btn-sm">Купить</a><a href="catalog_detail.html" class="btn btn-default btn-sm btn-more-item">Подробнее</a>
+                                        </div>
+                                        <div class="text-center sale-value">
+                                            Экономия 15%
+                                        </div>
+                                        <div class="labels">
+                                            <div class="sale_label icon_label">Распродажа</div><div class="g-clr"></div>
+                                            <div class="discount_label icon_label">Скидка</div><div class="g-clr"></div>
+                                            <div class="action_label icon_label">Акция</div><div class="g-clr"></div>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-section-id="1">
+                                <div class="catalog-item-wrap">
+                                    <div class="catalog_item">
+                                        <div class="img-wrap-wrap">
+                                            <div class="img-wrap">
+                                                <a href="catalog_detail.html"><img class="" src="images/temp/product-04.png" alt="" /></a>
+                                            </div>
+                                        </div>
+                                        <a href="catalog_detail.html" class="name">Pool Spa Klio Ванна 160х70 PWP6610ZN000000</a>
+                                        <div class="section_name">
+                                            <i class="fa fa-tag"></i> Ванны
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Название: </div>
+                                            <div class="g-right text-right">KOLO</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Название коллекции: </div>
+                                            <div class="g-right text-right">AQUALINO</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property">
+                                            <div class="g-left">Страна производитель: </div>
+                                            <div class="g-right text-right">Польша</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property">
+                                            <div class="g-left">Размер: </div>
+                                            <div class="g-right text-right">150x70 см</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Глубина: </div>
+                                            <div class="g-right text-right">39 см</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">объём: </div>
+                                            <div class="g-right text-right">145 л</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Цвет </div>
+                                            <div class="g-right text-right">белый</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="price_wrap">
+                                            <div class="g-left price old_price"><span>56 800</span> <span class="rub">Р</span></div>
+                                            <div class="g-right price">45 000 <span class="rub">Р</span></div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="text-center">
+                                            <a href="catalog_detail.html" class="btn btn-primary btn-sm">Купить</a><a href="catalog_detail.html" class="btn btn-default btn-sm btn-more-item">Подробнее</a>
+                                        </div>
+                                        <div class="text-center sale-value">
+                                            Экономия 15%
+                                        </div>
+                                        <div class="labels">
+                                            <div class="sale_label icon_label">Распродажа</div><div class="g-clr"></div>
+                                            <div class="discount_label icon_label">Скидка</div><div class="g-clr"></div>
+                                            <div class="action_label icon_label">Акция</div><div class="g-clr"></div>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-section-id="1">
+                                <div class="catalog-item-wrap">
+                                    <div class="catalog_item">
+                                        <div class="img-wrap-wrap">
+                                            <div class="img-wrap">
+                                                <a href="catalog_detail.html"><img class="" src="images/temp/product-01.png" alt="" /></a>
+                                            </div>
+                                        </div>
+                                        <a href="catalog_detail.html" class="name">Pool Spa Klio Ванна 160х70 PWP6610ZN000000</a>
+                                        <div class="section_name">
+                                            <i class="fa fa-tag"></i> Ванны
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Название: </div>
+                                            <div class="g-right text-right">KOLO</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Название коллекции: </div>
+                                            <div class="g-right text-right">AQUALINO</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property">
+                                            <div class="g-left">Страна производитель: </div>
+                                            <div class="g-right text-right">Польша</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property">
+                                            <div class="g-left">Размер: </div>
+                                            <div class="g-right text-right">150x70 см</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Глубина: </div>
+                                            <div class="g-right text-right">39 см</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">объём: </div>
+                                            <div class="g-right text-right">145 л</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Цвет </div>
+                                            <div class="g-right text-right">белый</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="price_wrap">
+                                            <div class="g-left price old_price"><span>56 800</span> <span class="rub">Р</span></div>
+                                            <div class="g-right price">45 000 <span class="rub">Р</span></div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="text-center">
+                                            <a href="catalog_detail.html" class="btn btn-primary btn-sm">Купить</a><a href="catalog_detail.html" class="btn btn-default btn-sm btn-more-item">Подробнее</a>
+                                        </div>
+                                        <div class="text-center sale-value">
+                                            Экономия 15%
+                                        </div>
+                                        <div class="labels">
+                                            <div class="sale_label icon_label">Распродажа</div><div class="g-clr"></div>
+                                            <div class="discount_label icon_label">Скидка</div><div class="g-clr"></div>
+                                            <div class="action_label icon_label">Акция</div><div class="g-clr"></div>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-section-id="1">
+                                <div class="catalog-item-wrap">
+                                    <div class="catalog_item">
+                                        <div class="img-wrap-wrap">
+                                            <div class="img-wrap">
+                                                <a href="catalog_detail.html"><img class="" src="images/temp/product-02.png" alt="" /></a>
+                                            </div>
+                                        </div>
+                                        <a href="catalog_detail.html" class="name">Pool Spa Klio Ванна 160х70 PWP6610ZN000000</a>
+                                        <div class="section_name">
+                                            <i class="fa fa-tag"></i> Ванны
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Название: </div>
+                                            <div class="g-right text-right">KOLO</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Название коллекции: </div>
+                                            <div class="g-right text-right">AQUALINO</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property">
+                                            <div class="g-left">Страна производитель: </div>
+                                            <div class="g-right text-right">Польша</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property">
+                                            <div class="g-left">Размер: </div>
+                                            <div class="g-right text-right">150x70 см</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Глубина: </div>
+                                            <div class="g-right text-right">39 см</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">объём: </div>
+                                            <div class="g-right text-right">145 л</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Цвет </div>
+                                            <div class="g-right text-right">белый</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="price_wrap">
+                                            <div class="g-left price old_price"><span>56 800</span> <span class="rub">Р</span></div>
+                                            <div class="g-right price">45 000 <span class="rub">Р</span></div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="text-center">
+                                            <a href="catalog_detail.html" class="btn btn-primary btn-sm">Купить</a><a href="catalog_detail.html" class="btn btn-default btn-sm btn-more-item">Подробнее</a>
+                                        </div>
+                                        <div class="text-center sale-value">
+                                            Экономия 15%
+                                        </div>
+                                       <div class="labels">
+                                            <div class="sale_label icon_label">Распродажа</div><div class="g-clr"></div>
+                                            <div class="discount_label icon_label">Скидка</div><div class="g-clr"></div>
+                                            <div class="action_label icon_label">Акция</div><div class="g-clr"></div>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-section-id="1">
+                                <div class="catalog-item-wrap">
+                                    <div class="catalog_item">
+                                        <div class="img-wrap-wrap">
+                                            <div class="img-wrap">
+                                                <a href="catalog_detail.html"><img class="" src="images/temp/product-03.png" alt="" /></a>
+                                            </div>
+                                        </div>
+                                        <a href="catalog_detail.html" class="name">Pool Spa Klio Ванна 160х70 PWP6610ZN000000</a>
+                                        <div class="section_name">
+                                            <i class="fa fa-tag"></i> Ванны
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Название: </div>
+                                            <div class="g-right text-right">KOLO</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Название коллекции: </div>
+                                            <div class="g-right text-right">AQUALINO</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property">
+                                            <div class="g-left">Страна производитель: </div>
+                                            <div class="g-right text-right">Польша</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property">
+                                            <div class="g-left">Размер: </div>
+                                            <div class="g-right text-right">150x70 см</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Глубина: </div>
+                                            <div class="g-right text-right">39 см</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">объём: </div>
+                                            <div class="g-right text-right">145 л</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Цвет </div>
+                                            <div class="g-right text-right">белый</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="price_wrap">
+                                            <div class="g-left price old_price"><span>56 800</span> <span class="rub">Р</span></div>
+                                            <div class="g-right price">45 000 <span class="rub">Р</span></div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="text-center">
+                                            <a href="catalog_detail.html" class="btn btn-primary btn-sm">Купить</a><a href="catalog_detail.html" class="btn btn-default btn-sm btn-more-item">Подробнее</a>
+                                        </div>
+                                        <div class="text-center sale-value">
+                                            Экономия 15%
+                                        </div>
+                                        <div class="labels">
+                                            <div class="sale_label icon_label">Распродажа</div><div class="g-clr"></div>
+                                            <div class="discount_label icon_label">Скидка</div><div class="g-clr"></div>
+                                            <div class="action_label icon_label">Акция</div><div class="g-clr"></div>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-section-id="1">
+                                <div class="catalog-item-wrap">
+                                    <div class="catalog_item">
+                                        <div class="img-wrap-wrap">
+                                            <div class="img-wrap">
+                                                <a href="catalog_detail.html"><img class="" src="images/temp/product-04.png" alt="" /></a>
+                                            </div>
+                                        </div>
+                                        <a href="catalog_detail.html" class="name">Pool Spa Klio Ванна 160х70 PWP6610ZN000000</a>
+                                        <div class="section_name">
+                                            <i class="fa fa-tag"></i> Ванны
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Название: </div>
+                                            <div class="g-right text-right">KOLO</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Название коллекции: </div>
+                                            <div class="g-right text-right">AQUALINO</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property">
+                                            <div class="g-left">Страна производитель: </div>
+                                            <div class="g-right text-right">Польша</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property">
+                                            <div class="g-left">Размер: </div>
+                                            <div class="g-right text-right">150x70 см</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Глубина: </div>
+                                            <div class="g-right text-right">39 см</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">объём: </div>
+                                            <div class="g-right text-right">145 л</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Цвет </div>
+                                            <div class="g-right text-right">белый</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="price_wrap">
+                                            <div class="g-left price old_price"><span>56 800</span> <span class="rub">Р</span></div>
+                                            <div class="g-right price">45 000 <span class="rub">Р</span></div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="text-center">
+                                            <a href="catalog_detail.html" class="btn btn-primary btn-sm">Купить</a><a href="catalog_detail.html" class="btn btn-default btn-sm btn-more-item">Подробнее</a>
+                                        </div>
+                                        <div class="text-center sale-value">
+                                            Экономия 15%
+                                        </div>
+                                        <div class="labels">
+                                            <div class="sale_label icon_label">Распродажа</div><div class="g-clr"></div>
+                                            <div class="discount_label icon_label">Скидка</div><div class="g-clr"></div>
+                                            <div class="action_label icon_label">Акция</div><div class="g-clr"></div>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-section-id="2">
+                                <div class="catalog-item-wrap">
+                                    <div class="catalog_item">
+                                        <div class="img-wrap-wrap">
+                                            <div class="img-wrap">
+                                                <a href="catalog_detail.html"><img class="" src="images/temp/product-05.jpg" alt="" /></a>
+                                            </div>
+                                        </div>
+                                        <a href="catalog_detail.html" class="name">Душевая кабина</a>
+                                        <div class="section_name">
+                                            <i class="fa fa-tag"></i> Душевые кабины
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Название: </div>
+                                            <div class="g-right text-right">KOLO</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Название коллекции: </div>
+                                            <div class="g-right text-right">AQUALINO</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property">
+                                            <div class="g-left">Страна производитель: </div>
+                                            <div class="g-right text-right">Польша</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property">
+                                            <div class="g-left">Размер: </div>
+                                            <div class="g-right text-right">150x70 см</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Глубина: </div>
+                                            <div class="g-right text-right">39 см</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">объём: </div>
+                                            <div class="g-right text-right">145 л</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Цвет </div>
+                                            <div class="g-right text-right">белый</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="price_wrap">
+                                            <div class="g-left price old_price"><span>56 800</span> <span class="rub">Р</span></div>
+                                            <div class="g-right price">45 000 <span class="rub">Р</span></div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="text-center">
+                                            <a href="catalog_detail.html" class="btn btn-primary btn-sm">Купить</a><a href="catalog_detail.html" class="btn btn-default btn-sm btn-more-item">Подробнее</a>
+                                        </div>
+                                        <div class="text-center sale-value">
+                                            Экономия 15%
+                                        </div>
+                                        <div class="labels">
+                                            <div class="sale_label icon_label">Распродажа</div><div class="g-clr"></div>
+                                            <div class="discount_label icon_label">Скидка</div><div class="g-clr"></div>
+                                            <div class="action_label icon_label">Акция</div><div class="g-clr"></div>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-section-id="2">
+                                <div class="catalog-item-wrap">
+                                    <div class="catalog_item">
+                                        <div class="img-wrap-wrap">
+                                            <div class="img-wrap">
+                                                <a href="catalog_detail.html"><img class="" src="images/temp/product-05.jpg" alt="" /></a>
+                                            </div>
+                                        </div>
+                                        <a href="catalog_detail.html" class="name">Душевая кабина</a>
+                                        <div class="section_name">
+                                            <i class="fa fa-tag"></i> Душевые кабины
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Название: </div>
+                                            <div class="g-right text-right">KOLO</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Название коллекции: </div>
+                                            <div class="g-right text-right">AQUALINO</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property">
+                                            <div class="g-left">Страна производитель: </div>
+                                            <div class="g-right text-right">Польша</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property">
+                                            <div class="g-left">Размер: </div>
+                                            <div class="g-right text-right">150x70 см</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Глубина: </div>
+                                            <div class="g-right text-right">39 см</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">объём: </div>
+                                            <div class="g-right text-right">145 л</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Цвет </div>
+                                            <div class="g-right text-right">белый</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="price_wrap">
+                                            <div class="g-left price old_price"><span>56 800</span> <span class="rub">Р</span></div>
+                                            <div class="g-right price">45 000 <span class="rub">Р</span></div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="text-center">
+                                            <a href="catalog_detail.html" class="btn btn-primary btn-sm">Купить</a><a href="catalog_detail.html" class="btn btn-default btn-sm btn-more-item">Подробнее</a>
+                                        </div>
+                                        <div class="text-center sale-value">
+                                            Экономия 15%
+                                        </div>
+                                       <div class="labels">
+                                            <div class="sale_label icon_label">Распродажа</div><div class="g-clr"></div>
+                                            <div class="discount_label icon_label">Скидка</div><div class="g-clr"></div>
+                                            <div class="action_label icon_label">Акция</div><div class="g-clr"></div>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-section-id="2">
+                                <div class="catalog-item-wrap">
+                                    <div class="catalog_item">
+                                        <div class="img-wrap-wrap">
+                                            <div class="img-wrap">
+                                                <a href="catalog_detail.html"><img class="" src="images/temp/product-05.jpg" alt="" /></a>
+                                            </div>
+                                        </div>
+                                        <a href="catalog_detail.html" class="name">Душевая кабина</a>
+                                        <div class="section_name">
+                                            <i class="fa fa-tag"></i> Душевые кабины
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Название: </div>
+                                            <div class="g-right text-right">KOLO</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Название коллекции: </div>
+                                            <div class="g-right text-right">AQUALINO</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property">
+                                            <div class="g-left">Страна производитель: </div>
+                                            <div class="g-right text-right">Польша</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property">
+                                            <div class="g-left">Размер: </div>
+                                            <div class="g-right text-right">150x70 см</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Глубина: </div>
+                                            <div class="g-right text-right">39 см</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">объём: </div>
+                                            <div class="g-right text-right">145 л</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Цвет </div>
+                                            <div class="g-right text-right">белый</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="price_wrap">
+                                            <div class="g-left price old_price"><span>56 800</span> <span class="rub">Р</span></div>
+                                            <div class="g-right price">45 000 <span class="rub">Р</span></div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="text-center">
+                                            <a href="catalog_detail.html" class="btn btn-primary btn-sm">Купить</a><a href="catalog_detail.html" class="btn btn-default btn-sm btn-more-item">Подробнее</a>
+                                        </div>
+                                        <div class="text-center sale-value">
+                                            Экономия 15%
+                                        </div>
+                                       <div class="labels">
+                                            <div class="sale_label icon_label">Распродажа</div><div class="g-clr"></div>
+                                            <div class="discount_label icon_label">Скидка</div><div class="g-clr"></div>
+                                            <div class="action_label icon_label">Акция</div><div class="g-clr"></div>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-section-id="2">
+                                <div class="catalog-item-wrap">
+                                    <div class="catalog_item">
+                                        <div class="img-wrap-wrap">
+                                            <div class="img-wrap">
+                                                <a href="catalog_detail.html"><img class="" src="images/temp/product-05.jpg" alt="" /></a>
+                                            </div>
+                                        </div>
+                                        <a href="catalog_detail.html" class="name">Душевая кабина</a>
+                                       <div class="section_name">
+                                            <i class="fa fa-tag"></i> Душевые кабины
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Название: </div>
+                                            <div class="g-right text-right">KOLO</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Название коллекции: </div>
+                                            <div class="g-right text-right">AQUALINO</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property">
+                                            <div class="g-left">Страна производитель: </div>
+                                            <div class="g-right text-right">Польша</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property">
+                                            <div class="g-left">Размер: </div>
+                                            <div class="g-right text-right">150x70 см</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Глубина: </div>
+                                            <div class="g-right text-right">39 см</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">объём: </div>
+                                            <div class="g-right text-right">145 л</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Цвет </div>
+                                            <div class="g-right text-right">белый</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="price_wrap">
+                                            <div class="g-left price old_price"><span>56 800</span> <span class="rub">Р</span></div>
+                                            <div class="g-right price">45 000 <span class="rub">Р</span></div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="text-center">
+                                            <a href="catalog_detail.html" class="btn btn-primary btn-sm">Купить</a><a href="catalog_detail.html" class="btn btn-default btn-sm btn-more-item">Подробнее</a>
+                                        </div>
+                                        <div class="text-center sale-value">
+                                            Экономия 15%
+                                        </div>
+                                       <div class="labels">
+                                            <div class="sale_label icon_label">Распродажа</div><div class="g-clr"></div>
+                                            <div class="discount_label icon_label">Скидка</div><div class="g-clr"></div>
+                                            <div class="action_label icon_label">Акция</div><div class="g-clr"></div>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-section-id="3">
+                                <div class="catalog-item-wrap">
+                                    <div class="catalog_item">
+                                        <div class="img-wrap-wrap">
+                                            <div class="img-wrap">
+                                                <a href="catalog_detail.html"><img class="" src="images/temp/product-06.png" alt="" /></a>
+                                            </div>
+                                        </div>
+                                        <a href="catalog_detail.html" class="name">Унитаз</a>
+                                       <div class="section_name">
+                                            <i class="fa fa-tag"></i> Унитазы
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Название: </div>
+                                            <div class="g-right text-right">KOLO</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Название коллекции: </div>
+                                            <div class="g-right text-right">AQUALINO</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property">
+                                            <div class="g-left">Страна производитель: </div>
+                                            <div class="g-right text-right">Польша</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property">
+                                            <div class="g-left">Размер: </div>
+                                            <div class="g-right text-right">150x70 см</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Глубина: </div>
+                                            <div class="g-right text-right">39 см</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">объём: </div>
+                                            <div class="g-right text-right">145 л</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Цвет </div>
+                                            <div class="g-right text-right">белый</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="price_wrap">
+                                            <div class="g-left price old_price"><span>56 800</span> <span class="rub">Р</span></div>
+                                            <div class="g-right price">45 000 <span class="rub">Р</span></div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="text-center">
+                                            <a href="catalog_detail.html" class="btn btn-primary btn-sm">Купить</a><a href="catalog_detail.html" class="btn btn-default btn-sm btn-more-item">Подробнее</a>
+                                        </div>
+                                        <div class="text-center sale-value">
+                                            Экономия 15%
+                                        </div>
+                                        <div class="labels">
+                                            <div class="sale_label icon_label">Распродажа</div><div class="g-clr"></div>
+                                            <div class="discount_label icon_label">Скидка</div><div class="g-clr"></div>
+                                            <div class="action_label icon_label">Акция</div><div class="g-clr"></div>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-section-id="3">
+                                <div class="catalog-item-wrap">
+                                    <div class="catalog_item">
+                                        <div class="img-wrap-wrap">
+                                            <div class="img-wrap">
+                                                <a href="catalog_detail.html"><img class="" src="images/temp/product-06.png" alt="" /></a>
+                                            </div>
+                                        </div>
+                                        <a href="catalog_detail.html" class="name">Унитаз</a>
+                                       <div class="section_name">
+                                            <i class="fa fa-tag"></i> Унитазы
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Название: </div>
+                                            <div class="g-right text-right">KOLO</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Название коллекции: </div>
+                                            <div class="g-right text-right">AQUALINO</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property">
+                                            <div class="g-left">Страна производитель: </div>
+                                            <div class="g-right text-right">Польша</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property">
+                                            <div class="g-left">Размер: </div>
+                                            <div class="g-right text-right">150x70 см</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Глубина: </div>
+                                            <div class="g-right text-right">39 см</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">объём: </div>
+                                            <div class="g-right text-right">145 л</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="property property_hide">
+                                            <div class="g-left">Цвет </div>
+                                            <div class="g-right text-right">белый</div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="price_wrap">
+                                            <div class="g-left price old_price"><span>56 800</span> <span class="rub">Р</span></div>
+                                            <div class="g-right price">45 000 <span class="rub">Р</span></div>
+                                            <div class="g-clr"></div>
+                                        </div>
+                                        <div class="text-center">
+                                            <a href="catalog_detail.html" class="btn btn-primary btn-sm">Купить</a><a href="catalog_detail.html" class="btn btn-default btn-sm btn-more-item">Подробнее</a>
+                                        </div>
+                                        <div class="text-center sale-value">
+                                            Экономия 15%
+                                        </div>
+                                        <div class="labels">
+                                            <div class="sale_label icon_label">Распродажа</div><div class="g-clr"></div>
+                                            <div class="discount_label icon_label">Скидка</div><div class="g-clr"></div>
+                                            <div class="action_label icon_label">Акция</div><div class="g-clr"></div>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                <div class="owl-items-wrap-wrap">
+                    <div class="owl-items-wrap">
+                        <div id="owl-items" class="owl-carousel">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="services">
+                <h2 class="special">                    
+                    <span class="title">Услуги</span>                                                          
+                </h2>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 margin-bottom-28">
+                       <div class="item-wrap">
+                            <a href="" class="item">                               
+                                <span class="icon delivery"></span> 
+                                <span class="title text-center">Доставка</span>
+                                <span class="p">Доставка занимает 2–4 рабочих дня, в<br />
+                                    зависимости от города назначения и<br />
+                                    выбранного способа доставки</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 margin-bottom-28">
+                       <div class="item-wrap">
+                             <a href="" class="item payment">                               
+                                <span class="icon payment"></span> 
+                                <span class="title text-center">Оплата</span>
+                                <span class="p">Оплата заказов в интернет-магазине <br />
+                                    производится в национальной валюте наличным<br />
+                                    и безналичным способом</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 margin-bottom-28">
+                       <div class="item-wrap">
+                             <a href="" class="item installation">                               
+                                <span class="icon installation"></span> 
+                                <span class="title text-center">Монтаж</span>
+                                <span class="p">Бесперебойность работы любой сложной<br />
+                                    системы в первую очередь зависит от<br />
+                                    правильной установки</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 margin-bottom-28">
+                       <div class="item-wrap">
+                            <a href="payment.html" class="item installation">                               
+                                <span class="icon exchange"></span> 
+                                <span class="title text-center">Обмен и возврат</span>
+                                <span class="p">Обмен и возврат товара производится согласно<br />
+                                    действующему законодательству России в<br />
+                                    течение 14 дней</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 margin-bottom-28">
+                       <div class="item-wrap">
+                            <a href="installation.html" class="item">                               
+                                <span class="icon measurement"></span> 
+                                <span class="title text-center">Выезд замерщика</span>
+                                <span class="p">Эта услуга предоставляется абсолютно <br />
+                                    бесплатно, к тому же, вам не нужно куда-либо<br />
+                                    ехать</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 margin-bottom-28">
+                       <div class="item-wrap">
+                            <a href="payment.html" class="item payment">                               
+                                <span class="icon sale"></span> 
+                                <span class="title text-center">Акции</span>
+                                <span class="p">Акции и спецпредложения тем, кто умеет<br />
+                                    экономить — Лучшая цена на сантехнику от<br />
+                                    производителя! </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>                  
+            </section>
+            <section class="reviews">                
+                <h2 class="special">                    
+                    <span class="title">Отзывы</span>                                                          
+                </h2>                
+                <div class="owl-items-wrap-wrap">
+                    <div class="owl-items-wrap">
+                        <div id="owl-reviews" class="owl-carousel">
+                            <div>
+                                <div class="review-item">
+                                    <a class="fancybox" rel="review" href="images/temp/review-big.jpg"><img src="images/temp/reivew.png" alt="" /></a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="review-item">
+                                    <a class="fancybox" rel="review" href="images/temp/review-big.jpg"><img src="images/temp/reivew.png" alt="" /></a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="review-item">
+                                    <a class="fancybox" rel="review" href="images/temp/review-big.jpg"><img src="images/temp/reivew.png" alt="" /></a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="review-item">
+                                    <a class="fancybox" rel="review" href="images/temp/review-big.jpg"><img src="images/temp/reivew.png" alt="" /></a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="review-item">
+                                    <a class="fancybox" rel="review" href="images/temp/review-big.jpg"><img src="images/temp/reivew.png" alt="" /></a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="review-item">
+                                    <a class="fancybox" rel="review" href="images/temp/review-big.jpg"><img src="images/temp/reivew.png" alt="" /></a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="review-item">
+                                    <a class="fancybox" rel="review" href="images/temp/review-big.jpg"><img src="images/temp/reivew.png" alt="" /></a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="review-item">
+                                    <a class="fancybox" rel="review" href="images/temp/review-big.jpg"><img src="images/temp/reivew.png" alt="" /></a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="review-item">
+                                    <a class="fancybox" rel="review" href="images/temp/review-big.jpg"><img src="images/temp/reivew.png" alt="" /></a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="review-item">
+                                    <a class="fancybox" rel="review" href="images/temp/review-big.jpg"><img src="images/temp/reivew.png" alt="" /></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </section>
+        </div>
+        <!-- /content -->
+        <!-- footer -->
+        <footer class="main-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                        <div class="section_footer_first">
+                            <div class="logo-footer">
+                                <img class="img-responsive" src="images/logo-footer.png" alt="" />
+                            </div>
+                            <section class="pay_systems">
+                                <div class="title">Способ оплаты:</div>
+                                <div>
+                                    <div class="g-left icon visa"></div>
+                                    <div class="g-left icon mastercard"></div>
+                                    <div class="g-left icon webmony"></div>
+                                    <div class="g-clr"></div>
+                                </div>
+                            </section>
+                            <section class="social-links">
+                                <a href="" class="g-left icon tw"></a>
+                                <a href="" class="g-left icon fb"></a>
+                                <a href="" class="g-left icon vk"></a>
+                                <a href="" class="g-left icon od"></a>
+                                <a href="" class="g-left icon gp"></a>
+                                <div class="g-clr"></div>
+                            </section>
+                            <section class="copyright">
+                                © 2015 “Santech-control”  Интернет-магазин<br />
+                                Все права защищены
+                            </section>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                        <section class="footer-menu">
+                            <div class="title">Услуги</div>
+                            <ul class="list-unstyled">
+                                <li><a href="delivery.html">Доставка</a></li>
+                                <li><a href="payment.html">Оплата</a></li>
+                                <li><a href="installation.html">Монтаж</a></li>
+                                <li><a href="">Обмен и возврат</a></li>
+                                <li><a href="">Выезд замерщика</a></li>
+                                <li><a href="">Акции</a></li>                           
+                            </ul>
+                        </section>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                        <section class="footer-contacts">
+                            <div class="title">Контакты</div>
+                            <div class="phone">8 812 309 73 74</div>
+                            <div class="phone">8 499 703 42 44</div>
+                            <div class="email"><a href="mailto:info@santeсh-control.ru">info@santeсh-control.ru</a></div>
+                            <div class="work_time">
+                                Пн.—Вт.: 8.00—19.00<br />
+                                Сб.,Вс.: 9.00—14.00
+                            </div>
+                            <div class="city_select">
+                                <div class="label_title">Выберите город:</div>
+                                <form action="#">
+                                    <select name="city_select" id="footer_city_select" class="selectpicker">
+                                        <option value="1">Санкт-Петербург</option>
+                                        <option value="2">Москва</option>
+                                    </select>
+                                </form>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                        <section class="footer-feedback">
+                            <div class="title">Оставить заявку</div>
+                            <form action="#" method="post">
+                                <div class="form-group">                                    
+                                    <input type="text" name="name" class="form-control" placeholder="Имя">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="phone" class="form-control" placeholder="Телефон">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" name="email" class="form-control" placeholder="E-mail">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control"  name="text" placeholder="Ваше сообщение"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-primary btn-sm">Отправить</button>
+                                </div>
+                            </form>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- /footer -->    
+        <div class="modal fade my_small_modal" id="feedBack" tabindex="-1" role="dialog" aria-labelledby="feedBack">
+            <div class="modal-dialog modal-sm" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="feedBackLabel">Заказать обратный звонок:</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form action="#" method="post">
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control" placeholder="Имя">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="phone" class="form-control" placeholder="Моб.телефон">
+                            </div>
+                            <button type="button" class="btn btn-primary btn-sm">Отправить</button>
+                        </form>
+                    </div>                    
+                </div>
+            </div>              
+        </div>        
+        <div class="modal fade my_small_modal" id="choiceCity" tabindex="-1" role="dialog" aria-labelledby="choiceCity">
+            <div class="modal-dialog modal-sm" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="choiceCityLabel">Пожалуйста, выберите свой город:</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form action="#" method="post">
+                            <select name="city_select" id="modal_city_select" class="selectpicker">
+                                <option value="1">Санкт-Петербург</option>
+                                <option value="2">Москва</option>
+                            </select>
+                            <button type="button" class="btn btn-primary btn-sm" data-dismiss="modal" aria-label="Close">Выбрать</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/bootstrap-select.min.js"></script>
+        <script src="js/jquery.maskedinput.min.js"></script>
+        <script src="js/jquery.fancybox.pack.js"></script>
+        <script src="js/custom.js"></script>
+    </body>
+</html>
